@@ -1,0 +1,26 @@
+
+  
+  #PlayButton:hover {
+    animation: none;
+  }
+  
+  #PlayButton:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, #ff69b4, #ffb6c1);
+    border-radius: 25px;
+    z-index: -1;
+  }
+  
+  #PlayButton {
+    border-color: transparent;
+  }
+  
+  #PlayButton:hover {
+    animation: slideTextButton 2s infinite alternate, glow 2s infinite alternate;
+  }
+  
